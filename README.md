@@ -20,11 +20,10 @@ This script will assess whether the TF binding site falls within the -500bp to +
 
 Usage:
 `perl 01.bing_site.pl promoter_region Ath_TF_list TFBS_from_FunTFBS_inProm_Ath.gff`
-    
- 
 
-    4.01.bing_site.pl：该脚本用于判断TF结合位点是否落入差异基因TSS -500至100范围内
-     运行方法：perl 01.bing_site.pl 32E-devo.id.tss Ath_TF_list TFBS_from_FunTFBS_inProm_Ath.gff > 32E-devo.id.bs.xls
-     32E-devo.id.tss：文件为基因TSS -500至100范围位置信息
-     Ath_TF_list：TF与其结合基因
-     TFBS_from_FunTFBS_inProm_Ath.gff：TF结合位点信息
+Required input are:
+1. Promoter_region. Usually the output of get_promoter.pl
+2. List of transcription factors. See example for file format
+3. TFBS_from_FunTFBS_inProm_Ath.gff is the TF binding site information. See example for file format. 
+ 
+ 
