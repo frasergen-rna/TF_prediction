@@ -7,7 +7,7 @@ Contains a suite of scripts for predicting transcription factor binding sites in
 This scripts extracts -500bp to +100bp of the translational start site of differentially expressed genes. The genes to extract are indicated in the maxtrix file. 
 
 Usage:
-perl get_promoter.pl Genome_fasta_file Gene_annotation_GFF3 Matrix
+$perl get_promoter.pl Genome_fasta_file Gene_annotation_GFF3 Matrix
 
 Required input are:
 1. Genome fasta file
@@ -19,7 +19,7 @@ Required input are:
 This script will assess whether the TF binding site falls within the -500bp to +100bp region
 
 Usage:
-perl 01.bing_site.pl promoter_region Ath_TF_list TFBS_from_FunTFBS_inProm_Ath.gff > output
+$perl 01.bing_site.pl promoter_region Ath_TF_list TFBS_from_FunTFBS_inProm_Ath.gff > output
     
  
 
