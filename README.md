@@ -7,12 +7,12 @@ Contains a suite of scripts for predicting transcription factor binding sites in
 This scripts extracts -500bp to +100bp of the translational start site of differentially expressed genes. The genes to extract are indicated in the maxtrix file. 
 
 Usage:
-`perl get_promoter.pl Genome_fasta_file Gene_annotation_GFF3 Matrix`
+`perl get_promoter.pl Genome_fasta_file Gene_annotation_GFF3 Gene_list`
 
 Required input are:
 1. Genome fasta file
 2. gene annotation GFF3 file
-3. Matrix file that describes the gene expression value for each stage or sample with rows indicating genes and columns indicating samples. 
+3. Gene list: a text file that list the gene to analyze. One gene per line. 
 
 ## 01.bing_site.pl
 
